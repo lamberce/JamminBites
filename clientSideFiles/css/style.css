@@ -1074,3 +1074,15 @@ img {
 #footer div .connect a.twitter {
 	background-position: 0 -96px;
 }
+
+
+/*------------------------------------Our Stuff--------------------------------------------*/
+div .cart {
+	display: block;
+	width: auto;
+}
+
+div .checkoutButton {
+	display: block;
+	width: auto;
+}
