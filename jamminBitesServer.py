@@ -66,10 +66,6 @@ class ServeSite(object):
 
 	@cherrypy.expose
 	def sendComment(self,name="",email="",subject="",message=""):
-		print name + "\n"
-		print email + "\n"
-		print subject + "\n"
-		print message + "\n"
 		if name != "Name" and email != "Email" and subject != "Subject":
 			subject = email + ": " + subject
 			os.system("""echo '%s' | mail -s '%s' '%s'"""%(message, subject, commentEmail))

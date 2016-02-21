@@ -1,0 +1,7 @@
+1) Finish checkout page
+	- Finish Stripe integration
+	- Create shopping cart functionality
+3) Change Main Logo
+4) Change pictures to pictures of bites
+5) Update about page information
+6) Update contact page information
