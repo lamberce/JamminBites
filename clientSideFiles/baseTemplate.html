@@ -16,17 +16,20 @@
 			<div>
 				<a href="index" class="logo"><img src="images/logo.png" alt=""></a>
 				<ul id="navigation">
-					<li class="selected">
+					<li {{homeSelected}}>
 						<a href="index">Home</a>
 					</li>
-					<li>
-						<a href="about">About</a>			
-					</li>
-					<li>
+					<li {{ourBitesSelected}}>
 						<a href="bites">Our Bites</a>
 					</li>
-					<li>
+					<li {{aboutSelected}}>
+						<a href="about">About</a>			
+					</li>
+					<li {{contactSelected}}>
 						<a href="contact">Contact</a>
+					</li>
+					<li {{checkoutSelected}}>
+						<a href="checkout">Checkout</a>
 					</li>
 				</ul>
 			</div>
