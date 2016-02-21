@@ -74,6 +74,11 @@ class ServeSite(object):
 		else:
 			raise cherrypy.HTTPRedirect("""/contact""")
 
+	@cherrypy.expose
+	def addToCart(self, itemId=""):
+		print itemID=""
+		return "Added to cart"
+
 
 if __name__ == '__main__':
 	conf = {
