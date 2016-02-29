@@ -80,7 +80,7 @@ img {
 	margin: 0 auto;
 	padding: 17px 0 0;
 	text-align: center;
-	width: 700px;
+	width: 720px;
 }
 #header div ul li {
 	display: inline-block;
@@ -1082,7 +1082,16 @@ div .cart {
 	width: auto;
 }
 
-div .checkoutButton {
+#checkoutContainer {
+	text-align: center;
+}
+
+.addToCartButton {
 	display: block;
-	width: auto;
+    margin: 0 auto;
+    background: #ff3377;
+    border-color: #ff3377;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
 }
